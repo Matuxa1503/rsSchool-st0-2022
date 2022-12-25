@@ -156,8 +156,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .about {
 	width: 1220px;
-	padding: 94px 0;
-	margin: 0 auto;
+	height: 479px;
+	margin: 94px auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -195,6 +195,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .about__text {
+	margin-top: -2px;
 	margin-left: -5px;
 	line-height: 1.5;
 }
