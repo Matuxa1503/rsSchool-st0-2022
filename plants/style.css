@@ -17,19 +17,20 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 
-p {
-	margin: 0 0 10px 0;
-}
+
 
 .container {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
-		background-color: #EDF2EC;
 }
 
 /* 
 =============== Header ================ */
+.header {
+	background-color: #EDF2EC;
+}
+
 .navbar {
 	width: 1220px;
 	height: 50px;
@@ -78,7 +79,11 @@ p {
 
 /* 
 =============== Welcome ================ */
-.welcome__section {
+.section {
+	background-color: #EDF2EC;
+}
+
+.welcome {
 	width: 1220px;
 	padding: 62px 0;
 	margin: 0 auto;
@@ -102,8 +107,10 @@ p {
 .welcome__title {
 	font-weight: 700;
 	color: #717171;
-	margin-bottom: 42px;
+	margin-bottom: 40px;
 	line-height: 1.2;
+	margin-left: -4px;
+	margin-top: 3px;
 }
 
 .welcome__title h1 {
@@ -118,7 +125,8 @@ p {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.7;
-	margin-bottom: 45px;
+	margin-bottom: 47px;
+	margin-left: -4px;
 }
 
 .welcome__button {
@@ -129,7 +137,7 @@ p {
 	color: #000;
 	background-color: #EDF2EC;
 	border: 2px solid #E06733;
-	padding: 12px 25px;
+	padding: 12px 23px;
 	border-radius: 10px;
 	cursor: pointer;
 	transition: background-color 0.2s;
@@ -140,5 +148,54 @@ p {
 	color: #EDF2EC;
 }
 
+/* 
+=============== About ================ */
+.section--white {
+	background-color: #fff;
+}
 
+.about {
+	width: 1220px;
+	padding: 94px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about__content {
+	width: 605px;
+	height: 350px;
+}
+
+.about__title {
+	width: 463px;
+	margin-bottom: 40px;
+
+	font-family: 'Inika', serif;
+	color: #499A18;
+}
+
+.about__title h2 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.about__title h2 span {
+	color: #E06733;
+}
+
+.about__img {
+	width: 464px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -6px;
+	margin-left: -8px;
+}
+
+.about__text {
+	margin-left: -5px;
+	line-height: 1.5;
+}
 /* font-family: 'Inika', serif;
