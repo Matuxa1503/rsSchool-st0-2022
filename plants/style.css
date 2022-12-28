@@ -304,4 +304,124 @@ content__bottom ================ */
 	text-align: center;
 	padding-bottom: 36px;
 }
+
+/* 
+=============== Prices ================ */
+.prices {
+	padding: 40px 0 115px 0;
+}
+
+.prices__wrapper {
+	width: 1220px;
+	height: 405px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 
+prices__accordion ================ */
+.prices__accordion {
+	width: 332px;
+	height: 391px;
+}
+
+.prices__title {
+	font-size: 40px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 60px;
+}
+
+
+.accordion__block {
+	width: 332px;
+	height: 282px;
+	border: 1px solid #E3E1D5;
+	border-radius: 20px;
+}
+
+.block__item {
+	padding: 34px 41px;
+}
+
+.accordion__item {
+	width: 250px;
+	height: 50px;
+	background-color: #EDF2EC;
+	border-radius: 20px;
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion__text {
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	padding-left:  40px;
+}
+
+.accordion__img {
+	width: 16px;
+	height: 16px;
+	margin-right: 40px;
+}
+
+.accordion__item:last-child {
+	margin-bottom: 0;
+}
+
+/* 
+prices__contacts ================ */
+.prices__contacts {
+	width: 452px;
+	height: 191px;
+	text-align: right;
+}
+
+.contacts__title {
+	width: 452px;
+	height: 103px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #000;
+	line-height: 1.25;
+	margin-bottom: 38px;
+}
+
+.contacts__title span {
+	color: #499A18;
+}
+
+.contacts__btn {
+	font-family: 'Inika', serif;
+	font-weight: 700;
+	font-size: 20px;
+	width: 162px;
+	padding: 12px 30px;
+	color: #E06733;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #E06733;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	margin-bottom: 39px;
+}
+
+.contacts__btn:hover {
+	background-color: #E06733;
+	color: #EDF2EC; 
+}
+
+.contacts__img {
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 152px;
+	height: 175px;
+	margin-left: 300px;
+}
 /* font-family: 'Inika', serif;
