@@ -381,7 +381,7 @@ prices__contacts ================ */
 	text-align: right;
 }
 
-.contacts__title {
+.right__title {
 	width: 452px;
 	height: 103px;
 	font-size: 40px;
@@ -391,11 +391,11 @@ prices__contacts ================ */
 	margin-bottom: 38px;
 }
 
-.contacts__title span {
+.right__title span {
 	color: #499A18;
 }
 
-.contacts__btn {
+.prices__btn {
 	font-family: 'Inika', serif;
 	font-weight: 700;
 	font-size: 20px;
@@ -410,12 +410,12 @@ prices__contacts ================ */
 	margin-bottom: 39px;
 }
 
-.contacts__btn:hover {
+.prices__btn:hover {
 	background-color: #E06733;
 	color: #EDF2EC; 
 }
 
-.contacts__img {
+.prices__img {
 	display: block;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -424,4 +424,63 @@ prices__contacts ================ */
 	height: 175px;
 	margin-left: 300px;
 }
+
+/* 
+=============== Contacts ================ */
+.contacts {
+	padding-top: 51px;
+}
+
+.contacts__content {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 1220px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+.woman__img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contacts__position {
+	position: absolute;
+	left: 42%;
+}
+
+.contacts__title {
+	width: 195px;
+	font-family: 'Inika', serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #499A18;
+	margin-top: 10px;
+}
+
+.contacts__form {
+	width: 450px;
+	height: 50px;
+	margin-left: 64px;
+	margin-top: 148px;
+	background-color: #D6E7D2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form__text {
+	width: 204px;
+	height: 40px;
+	padding: 5px 0 5px 20px;
+}
+
+.contacts__img {
+	width: 16px;
+	height: 16px;
+	margin-right: 35px;
+}
+
 /* font-family: 'Inika', serif;
