@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Inter', sans-serif;
 	margin: 0;
@@ -27,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* 
 =============== Header ================ */
-.header {
+#header {
 	background-color: #EDF2EC;
 }
 
@@ -155,7 +159,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: #fff;
 }
 
-.about {
+#about {
 	width: 1220px;
 	height: 479px;
 	margin: 94px auto;
@@ -202,7 +206,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* 
 =============== Service ================ */
-.service {
+#service {
 	padding: 42px 0 121px 0;
 }
 
@@ -307,7 +311,7 @@ content__bottom ================ */
 
 /* 
 =============== Prices ================ */
-.prices {
+#prices {
 	padding: 40px 0 115px 0;
 }
 
@@ -427,7 +431,7 @@ prices__contacts ================ */
 
 /* 
 =============== Contacts ================ */
-.contacts {
+#contacts {
 	padding-top: 51px;
 }
 
