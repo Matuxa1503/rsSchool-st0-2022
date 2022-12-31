@@ -203,7 +203,7 @@ h1,h2,h3,h4,h5,h6 {
 /* 
 =============== Service ================ */
 .service {
-	padding: 40px 0 121px 0;
+	padding: 42px 0 121px 0;
 }
 
 /* 
@@ -218,7 +218,7 @@ content__top ================ */
 }
 
 .service__title {
-	margin-right: 142px;
+	margin-right: 139px;
 	width: 306px;
 
 	font-family: 'Inika', serif;
@@ -360,7 +360,7 @@ prices__accordion ================ */
 	font-size: 20px;
 	font-weight: 700;
 	color: #000;
-	padding-left:  40px;
+	padding-left:  37px;
 }
 
 .accordion__img {
@@ -388,7 +388,7 @@ prices__contacts ================ */
 	font-weight: 700;
 	color: #000;
 	line-height: 1.25;
-	margin-bottom: 38px;
+	margin-bottom: 36px;
 }
 
 .right__title span {
@@ -436,11 +436,13 @@ prices__contacts ================ */
 	display: flex;
 	justify-content: space-between;
 	width: 1220px;
-	height: 550px;
+	height: 500px;
 	margin: 0 auto;
 }
 
 .woman__img {
+	width: 400px;
+	height: 497px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -463,15 +465,18 @@ prices__contacts ================ */
 .contacts__form {
 	width: 450px;
 	height: 50px;
-	margin-left: 64px;
-	margin-top: 148px;
+	margin-left: 66px;
+	margin-top: 95px;
 	background-color: #D6E7D2;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 }
 
 .form__text {
+	font-size: 20px;
+	font-weight: 400;
 	width: 204px;
 	height: 40px;
 	padding: 5px 0 5px 20px;
@@ -481,6 +486,76 @@ prices__contacts ================ */
 	width: 16px;
 	height: 16px;
 	margin-right: 35px;
+}
+
+/* 
+=============== Footer ================ */
+footer {
+	padding: 36px 109px;
+}
+
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	width: 1220px;
+	height: 50px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.footer__text1 {
+	width: 182px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 2.5;
+	color: #000;
+}
+
+.footer__text1 span {
+	padding-left: 12px;
+}
+
+.footer__text1 a {
+	padding-left: 25px;
+	text-decoration: none;
+	color: #000;
+	transition: color 0.2s;
+}
+
+.footer__text1 a:hover {
+	color: #636060;
+}
+
+.footer__text2 {
+	width: 211px;
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000;
+	transition: color 0.2s;
+}
+
+.footer__text2:hover {
+	color: #636060;
+}
+
+.footer__social {
+	width: 183px;
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social__item a i {
+	color: #000;
+	text-decoration: none;
+	font-size: 32px;
+	transition: color 0.2s;
+}
+
+.social__item a i:hover {
+	color: #636060;
 }
 
 /* font-family: 'Inika', serif;
