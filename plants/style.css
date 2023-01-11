@@ -600,4 +600,36 @@ footer {
 		width: 339px;
 		margin-bottom: 30px;
 	}
+
+	#about {
+		display: block;
+		width: 668px;
+		height: 648px;
+		margin: 40px auto 95px;
+	}
+	
+	.about__content {
+		width: 668px;
+		height: 355px;
+		margin-bottom: 40px;
+	}
+
+	.about__title {
+		width: 423px;
+		text-align: center;
+		margin: 0 auto 52px;
+	}
+
+	.about__title h2 {
+		font-size: 35px;
+	}
+
+	.about__img {
+		width: 250px;
+		margin-left: 210px;
+	}
+
+
+
+
 }
