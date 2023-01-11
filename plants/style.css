@@ -563,3 +563,41 @@ footer {
 	color: #636060;
 }
 
+@media screen and (max-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+
+	.navbar {
+		width: 668px;
+		height: 50px;
+		padding: 59px 0;
+	}
+
+	.welcome {
+		width: 668px;
+		padding: 40px 0 70px 0;
+		flex-direction: row-reverse;
+	}
+
+	.welcome__img {
+		width: 280px;
+		height: 255px;
+	}
+
+	.welcome__content {
+		width: 346px;
+		height: 310px;
+		margin-top: 0px;
+	}
+
+	.welcome__title h1 {
+		font-size: 35px;
+	}
+
+	.welcome__text {
+		font-size: 16px;
+		width: 339px;
+		margin-bottom: 30px;
+	}
+}
