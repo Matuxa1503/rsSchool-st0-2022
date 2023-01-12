@@ -390,7 +390,6 @@ prices__contacts ================ */
 
 .right__title {
 	width: 452px;
-	height: 103px;
 	font-size: 40px;
 	font-weight: 700;
 	color: #000;
@@ -687,6 +686,41 @@ content__bottom ================ */
 		width: 90%;
 		margin: 0 auto;
 		margin-top: -5px;
+	}
+
+/* 
+=============== Prices ================ */
+	#prices {
+		padding: 40px 0 90px 0;
+	}
+
+	.prices__wrapper {
+		width: 668px;
+	}
+
+/* 
+prices__accordion ================ */
+	.prices__title {
+		font-size: 35px;
+		margin-left: 15px;
+		margin-bottom: 57px;
+	}
+
+/* 
+prices__contacts ================ */
+.prices__contacts {
+	width: 295px;
+	text-align: right;
+}
+
+	.right__title { 
+		font-size: 25px;
+		width: 296px;
+		margin: 100px 0 31px 0px;
+	}
+
+	.prices__img {
+		margin-left: 145px;
 	}
 
 
