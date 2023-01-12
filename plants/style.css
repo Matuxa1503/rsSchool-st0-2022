@@ -757,9 +757,32 @@ prices__contacts ================ */
 		margin-left: 250px;
 	}
 
+/* 
+=============== Footer ================ */
+footer {
+	padding: 29px 0 18px 0;
+}
 
+.footer__content {
+	width: 211px;
+	height: auto;
+	display: block;
+	text-align: center;
+}
 
+	.footer__text1 {
+		width: 210px;
+		line-height: 1.5;
+		margin-bottom: 10px;
+	}
 
+	.footer__social {
+		width: 200px;
+		margin-top: 30px;
+		padding-left: 15px;
+	}
 
-
+	.social__item a i {
+		font-size: 25px;
+	}
 }
