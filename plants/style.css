@@ -11,6 +11,10 @@ body {
 	color: #636060;
 }
 
+picture {
+	display: block;
+}
+
 
 *,
 *::before,
@@ -691,7 +695,7 @@ content__bottom ================ */
 /* 
 =============== Prices ================ */
 	#prices {
-		padding: 40px 0 90px 0;
+		padding: 40px 0 138px 0;
 	}
 
 	.prices__wrapper {
@@ -722,6 +726,40 @@ prices__contacts ================ */
 	.prices__img {
 		margin-left: 145px;
 	}
+
+	/* 
+=============== Contacts ================ */
+#contacts {
+	padding-top: 40px;
+}
+
+	.contacts__content {
+		width: 668px;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.contacts__position {
+		order: 1;
+		left: 36%;
+		top: -1%;
+	}
+	
+	.contacts__form {
+		order: 2;
+		margin: 152px auto 250px;
+	}
+	
+	.woman__img {
+		order: 3;
+		width: 200px;
+		height: 249px;
+		margin-left: 250px;
+	}
+
+
+
+
 
 
 }
