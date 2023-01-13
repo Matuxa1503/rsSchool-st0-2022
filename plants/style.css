@@ -3,11 +3,16 @@ html {
 }
 
 body {
+	/* font-family: 'Inika', serif;*/
 	font-family: 'Inter', sans-serif;
 	margin: 0;
 	font-weight: 400;
 	font-size: 20px;
 	color: #636060;
+}
+
+picture {
+	display: block;
 }
 
 
@@ -277,6 +282,8 @@ content__bottom ================ */
 }
 
 .services__img {
+	width: 100%;
+	max-width: 330px;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -387,7 +394,6 @@ prices__contacts ================ */
 
 .right__title {
 	width: 452px;
-	height: 103px;
 	font-size: 40px;
 	font-weight: 700;
 	color: #000;
@@ -562,4 +568,233 @@ footer {
 	color: #636060;
 }
 
-/* font-family: 'Inika', serif;
+@media screen and (max-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+
+/* 
+=============== Header ================ */
+	.navbar {
+		width: 668px;
+		height: 50px;
+		padding: 59px 0;
+	}
+
+/* 
+=============== Welcome ================ */
+	.welcome {
+		width: 668px;
+		padding: 40px 0 70px 0;
+		flex-direction: row-reverse;
+	}
+
+	.welcome__img {
+		width: 280px;
+		height: 255px;
+	}
+
+	.welcome__content {
+		width: 346px;
+		height: 310px;
+		margin-top: 0px;
+	}
+	
+	.welcome__title {
+		margin: 0 0 32px 1px;
+	}
+	
+	.welcome__title h1 {
+		font-size: 35px;
+		line-height: 1.4;
+	}
+
+	.welcome__text {
+		font-size: 16px;
+		width: 339px;
+		margin: 0 0 33px 5px;
+		line-height: 1.6;
+	}
+
+/* 
+=============== About ================ */
+	#about {
+		display: block;
+		width: 668px;
+		height: 648px;
+		margin: 40px auto 95px;
+	}
+	
+	.about__content {
+		width: 668px;
+		height: 355px;
+		margin-bottom: 40px;
+	}
+
+	.about__title {
+		width: 423px;
+		text-align: center;
+		margin: 0 auto 52px;
+	}
+
+	.about__title h2 {
+		font-size: 35px;
+	}
+
+	.about__img {
+		width: 250px;
+		margin-left: 210px;
+	}
+
+/* 
+=============== Service ================ */
+	#service {
+		padding: 60px 0 70px 0;
+	}
+
+/* 
+content__top ================ */
+	.content__top {
+		width: 668px;
+		height: 140px;
+		display: block;
+		margin-left: 50px;
+	}
+
+	.service__title {
+	font-size: 35px;
+	margin-bottom: 43px;
+	}
+	
+	.service__btn {
+		margin-right: 32px;
+	}
+
+	/* 
+content__bottom ================ */
+	.content__bottom {
+		width: 668px;
+		height: auto;
+	}
+
+	.grid__bottom {
+		grid-template-columns: repeat(2, 281px);
+		grid-template-rows: repeat(2, 450px);
+		column-gap: 106px;
+		row-gap: 38px;
+	}
+
+	.services__item { 
+		width: 280px;
+	}
+
+	.services__img {
+		margin-bottom: -6px;
+	}
+
+	.services__text {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: -3px;
+		padding-bottom: 18px;
+	}
+
+/* 
+=============== Prices ================ */
+	#prices {
+		padding: 40px 0 138px 0;
+	}
+
+	.prices__wrapper {
+		width: 668px;
+	}
+
+/* 
+prices__accordion ================ */
+	.prices__title {
+		font-size: 35px;
+		margin-left: 15px;
+		margin-bottom: 57px;
+	}
+
+/* 
+prices__contacts ================ */
+.prices__contacts {
+	width: 295px;
+	text-align: right;
+}
+
+	.right__title { 
+		font-size: 25px;
+		width: 296px;
+		line-height: 1.4;
+		margin: 100px 0 27px 0px;
+	}
+
+	.prices__btn { 
+		margin-bottom: 33px;
+	}
+
+	.prices__img {
+		margin-left: 145px;
+	}
+
+	/* 
+=============== Contacts ================ */
+#contacts {
+	padding-top: 40px;
+}
+
+	.contacts__content {
+		width: 668px;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.contacts__position {
+		order: 1;
+		left: 36%;
+		top: -1%;
+	}
+	
+	.contacts__form {
+		order: 2;
+		margin: 152px auto 250px;
+	}
+	
+	.woman__img {
+		order: 3;
+		width: 200px;
+		height: 249px;
+		margin-left: 244px;
+	}
+
+/* 
+=============== Footer ================ */
+footer {
+	padding: 29px 0 18px 0;
+}
+
+.footer__content {
+	width: 211px;
+	height: auto;
+	display: block;
+	text-align: center;
+}
+
+	.footer__text1 {
+		width: 210px;
+		line-height: 1.5;
+		margin-bottom: 13px;
+	}
+
+	.footer__social {
+		width: 196px;
+		margin-top: 30px;
+		padding-left: 19px;
+	}
+
+	.social__item a i {
+		font-size: 26px;
+	}
+}
