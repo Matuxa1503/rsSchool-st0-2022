@@ -599,15 +599,21 @@ footer {
 		height: 310px;
 		margin-top: 0px;
 	}
-
+	
+	.welcome__title {
+		margin: 0 0 32px 1px;
+	}
+	
 	.welcome__title h1 {
 		font-size: 35px;
+		line-height: 1.4;
 	}
 
 	.welcome__text {
 		font-size: 16px;
 		width: 339px;
-		margin-bottom: 30px;
+		margin: 0 0 33px 5px;
+		line-height: 1.6;
 	}
 
 /* 
@@ -675,7 +681,7 @@ content__bottom ================ */
 		grid-template-columns: repeat(2, 281px);
 		grid-template-rows: repeat(2, 450px);
 		column-gap: 106px;
-		row-gap: 40px;
+		row-gap: 38px;
 	}
 
 	.services__item { 
@@ -689,7 +695,8 @@ content__bottom ================ */
 	.services__text {
 		width: 90%;
 		margin: 0 auto;
-		margin-top: -5px;
+		margin-top: -3px;
+		padding-bottom: 18px;
 	}
 
 /* 
@@ -720,7 +727,12 @@ prices__contacts ================ */
 	.right__title { 
 		font-size: 25px;
 		width: 296px;
-		margin: 100px 0 31px 0px;
+		line-height: 1.4;
+		margin: 100px 0 27px 0px;
+	}
+
+	.prices__btn { 
+		margin-bottom: 33px;
 	}
 
 	.prices__img {
@@ -754,7 +766,7 @@ prices__contacts ================ */
 		order: 3;
 		width: 200px;
 		height: 249px;
-		margin-left: 250px;
+		margin-left: 244px;
 	}
 
 /* 
@@ -773,16 +785,16 @@ footer {
 	.footer__text1 {
 		width: 210px;
 		line-height: 1.5;
-		margin-bottom: 10px;
+		margin-bottom: 13px;
 	}
 
 	.footer__social {
-		width: 200px;
+		width: 196px;
 		margin-top: 30px;
-		padding-left: 15px;
+		padding-left: 19px;
 	}
 
 	.social__item a i {
-		font-size: 25px;
+		font-size: 26px;
 	}
 }
