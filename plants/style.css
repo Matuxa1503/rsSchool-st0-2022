@@ -892,38 +892,38 @@ footer {
 
 	/* 
 =============== Welcome ================ */
-	.welcome {
-		width: 330px;
-		padding: 24px 0;
-	}
+.welcome {
+	width: 330px;
+	padding: 24px 0;
+}
 
-	.welcome__img {
-		display: none;
-	}
+.welcome__img {
+	display: none;
+}
 
-	.welcome__content {
-		width: 330px;
-		height: auto;
-	}
+.welcome__content {
+	width: 330px;
+	height: auto;
+}
 
-	.welcome__title {
-		margin: 0 0 20px -1px;
-	}
+.welcome__title {
+	margin: 0 0 20px -1px;
+}
 
-	.welcome__title h1 {
-		font-size: 25px;
-	}
+.welcome__title h1 {
+	font-size: 25px;
+}
 
-	.welcome__text {
-		width: 315px;
-		font-size: 16px;
-		margin: 0 0 26px 0;
-		line-height: 1.6;
-	}
+.welcome__text {
+	width: 315px;
+	font-size: 16px;
+	margin: 0 0 26px 0;
+	line-height: 1.6;
+}
 
-	.welcome__btn {
-		font-size: 10px;
-		padding: 8px 15px;
-	}
+.welcome__btn {
+	font-size: 10px;
+	padding: 8px 15px;
+}
 
 } /* end @media screen and (max-width: 380px) */
