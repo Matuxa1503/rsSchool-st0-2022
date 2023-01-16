@@ -504,9 +504,9 @@ prices__contacts ================ */
 
 /* 
 =============== Footer ================ */
-footer {
-	padding: 36px 109px;
-}
+	footer {
+		padding: 36px 109px;
+	}
 
 .footer__content {
 	display: flex;
@@ -1119,5 +1119,28 @@ prices__contacts ================ */
 		margin-left: 114px;
 	}
 
+/* 
+=============== Footer ================ */
+	footer {
+		padding: 18px 0 7px 0;
+	}
+
+	.footer__content {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.footer__text1 {
+		width: 100%;
+		margin-bottom: 12px;
+	}
+
+	.footer__social {
+		width: 183px;
+		margin-top: 15px;
+		margin: 15px auto 0;
+		padding-left: 5px;
+	}
 
 } /* end @media screen and (max-width: 380px) */
