@@ -1012,8 +1012,74 @@ content__bottom ================ */
 		margin: 0 auto;
 	}
 
+/* 
+=============== Prices ================ */
+	#prices {
+		padding: 25px 0 40px 0;
+	}
 
+	.prices__wrapper {
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
 
+	/* 
+prices__accordion ================ */
+	.prices__accordion {
+		height: auto;
+	}
 
+	.prices__title {
+		margin: 0 0 37px 0;
+		font-size: 25px;
+	}
+
+	.accordion__block {
+		width: 224px;
+		height: 235px;
+		margin: 0 auto 19px;
+	}
+
+	.block__item {
+		padding: 29px 22px;
+	}
+
+	.accordion__item {
+		width: 180px;
+		margin-bottom: 13px;
+	}
+
+	.accordion__text {
+		font-size: 15px;
+		padding-left: 28px;
+	}
+
+/* 
+prices__contacts ================ */
+	.prices__contacts {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.right__title {
+		width: 231px;
+		font-size: 20px;
+		line-height: 1.7;
+		margin: 0 auto 21px;
+	}
+
+	.prices__btn {
+		width: 121px;
+		padding: 8px 22px;
+		font-size: 15px;
+		margin: 0;
+	}
+
+	.prices__img {
+		display: none;
+	}
 
 } /* end @media screen and (max-width: 380px) */
