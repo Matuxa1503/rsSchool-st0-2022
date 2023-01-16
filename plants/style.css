@@ -1082,4 +1082,42 @@ prices__contacts ================ */
 		display: none;
 	}
 
+/* 
+=============== Contacts ================ */
+	#contacts {
+		padding-top: 25px;
+	}
+
+	.contacts__content {
+		width: 100%;
+		height: auto;
+	}
+
+	.contacts__position {
+		left: 31%;
+		top: 0;
+	}
+
+	.contacts__title {
+		font-size: 25px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.contacts__form {
+		width: 300px;
+		margin: 115px auto 132px;
+	}
+
+	.contacts__img {
+		margin-right: 22px;
+	}
+
+	.woman__img {
+		width: 100px;
+		height: 125px;
+		margin-left: 114px;
+	}
+
+
 } /* end @media screen and (max-width: 380px) */
