@@ -1,5 +1,4 @@
 console.log('1. Вёрстка валидная +10 \n2. Вёрстка семантическая +20 \n3. Вёрстка соответствует макету +48 \n4. Требования к css + 12\n5. Интерактивность, реализуемая через css +20\n Итого: 110/110');
-
 // Блюр
 const gardensBtn1 = document.getElementById("gardens__btn1");
 const lawnBtn2 = document.getElementById("lawn__btn2");
