@@ -259,10 +259,33 @@ content__top ================ */
 	margin-right: 0;
 }
 
-.service__btn:hover {
+/* .service__btn:hover {
 	background-color: #E06733;
 	color: #EDF2EC; 
+} */
+
+.activeBtn1 {
+	background-color: #E06733;
+	color: #EDF2EC;
+
 }
+
+.activeBtn2 {
+	background-color: #E06733;
+	color: #EDF2EC;
+}
+
+.activeBtn3 {
+	background-color: #E06733;
+	color: #EDF2EC;
+}
+
+.gardenBlur,
+.lawnBlur,
+.plantingBlur {
+	filter: blur(2px);
+}
+
 
 /* 
 content__bottom ================ */
@@ -283,6 +306,7 @@ content__bottom ================ */
 .services__item {
 	width: 330px;
 	height: 450px;
+	transition: filter 0.5s;
 }
 
 .services__img {
