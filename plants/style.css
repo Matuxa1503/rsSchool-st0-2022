@@ -398,6 +398,7 @@ prices__contacts ================ */
 
 .right__title {
 	width: 452px;
+	height: 103px;
 	font-size: 40px;
 	font-weight: 700;
 	color: #000;
@@ -885,7 +886,7 @@ footer {
 		top: 0;
 		left: -100%;
 		width: 100%;
-		height: 67%;
+		height: 60%;
 		background: #EDF2EC;
 		padding: 68px 0 0 30px;
 		transition: left 0.4s ease 0.1s;
