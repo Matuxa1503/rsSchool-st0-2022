@@ -66,5 +66,3 @@ if (plantingBtn3) {
 		plantingBtn3.classList.toggle("activeBtn3");
 	});
 };
-
-
