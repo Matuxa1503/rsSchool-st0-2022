@@ -259,10 +259,33 @@ content__top ================ */
 	margin-right: 0;
 }
 
-.service__btn:hover {
+/* .service__btn:hover {
 	background-color: #E06733;
 	color: #EDF2EC; 
+} */
+
+.activeBtn1 {
+	background-color: #E06733;
+	color: #EDF2EC;
+
 }
+
+.activeBtn2 {
+	background-color: #E06733;
+	color: #EDF2EC;
+}
+
+.activeBtn3 {
+	background-color: #E06733;
+	color: #EDF2EC;
+}
+
+.gardenBlur,
+.lawnBlur,
+.plantingBlur {
+	filter: blur(2px);
+}
+
 
 /* 
 content__bottom ================ */
@@ -283,6 +306,7 @@ content__bottom ================ */
 .services__item {
 	width: 330px;
 	height: 450px;
+	transition: filter 0.5s;
 }
 
 .services__img {
@@ -398,6 +422,7 @@ prices__contacts ================ */
 
 .right__title {
 	width: 452px;
+	height: 103px;
 	font-size: 40px;
 	font-weight: 700;
 	color: #000;
@@ -885,7 +910,7 @@ footer {
 		top: 0;
 		left: -100%;
 		width: 100%;
-		height: 67%;
+		height: 60%;
 		background: #EDF2EC;
 		padding: 68px 0 0 30px;
 		transition: left 0.4s ease 0.1s;
