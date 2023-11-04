@@ -381,36 +381,118 @@ prices__accordion ================ */
 }
 
 .block__item {
+	position: relative;
 	padding: 34px 41px;
 }
 
 .accordion__item {
 	width: 250px;
-	height: 50px;
 	background-color: #EDF2EC;
+	position: relative;
 	border-radius: 20px;
 	margin-bottom: 32px;
+	transition: 1.5s;
+}
+
+.open {
+	background-color: #D6E7D2;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	transition: 0.1s;
+}
+
+.rotate {
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+
+.accordion__inner {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	padding: 11px 0;
+	cursor: pointer;
 }
 
 .accordion__text {
 	font-size: 20px;
 	font-weight: 700;
 	color: #000;
-	padding-left:  37px;
+	padding-left:  39px;
+	padding-top: 3px;
 }
 
 .accordion__img {
 	width: 16px;
-	height: 16px;
+	height: 17px;
 	margin-right: 40px;
+	margin-top: 7px;
+	transition: 0.5s;
 }
 
 .accordion__item:last-child {
 	margin-bottom: 0;
 }
+
+.accordion__item-active {
+	position: absolute;
+	max-height: 0;
+	overflow: hidden;
+	top: 82px;
+	left: 41px;
+	width: 250px;
+	height: 108px;
+	background-color: #D6E7D2;
+	margin-bottom: 32px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	transition: 0.4s;
+	z-index: 1;
+}
+
+.accordion__content-active {
+	width: 170px;
+	margin: 0 auto;
+	border-top: 1px solid #AEA1A1;
+}
+
+.accordion__content__text-active {
+	font-size: 10px;
+	line-height: 1.1;
+	margin-top: 8px;
+}
+
+.accordion__content__price-active {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #000;
+	font-weight: 300;
+}
+
+.accordion__content__price-active span {
+	font-size: 12px;
+	color: #E06733;
+	font-weight: 700;
+}
+
+.accordion__content__price-active b {
+
+	font-size: 16px;
+	color: #E06733;
+}
+
+.accordion__content__btn-active {
+	margin-top: 7px;
+	width: 86px;
+	height: 25px;
+	background-color: #fff;
+	color: #717171;
+	font-size: 14px;
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+	padding-left: 1px;
+}
+
 
 /* 
 prices__contacts ================ */
